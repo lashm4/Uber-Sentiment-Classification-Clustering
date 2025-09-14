@@ -64,13 +64,14 @@ embeddings, clustering, and visualisation.
     Weak on Neutral (needs more data)
 
 6.  **Clustering**
+   
     #### Elbow & Silhouette Analysis
     The following figure was used to decide the optimal number of clusters:  
-<img width="1397" height="484" alt="results_Sentiment" src="https://github.com/user-attachments/assets/e884bc34-b3f4-4133-bf3d-700fda9596fa" />
+    <img width="1397" height="484" alt="results_Sentiment" src="https://github.com/user-attachments/assets/e884bc34-b3f4-4133-bf3d-700fda9596fa" />
     - **Elbow Method:** Suggests possible inflection at *k = 5–6*  
-    - **Silhouette Score:** Peaks at *k = 2*, but higher k uncovers richer themes   
+    - **Silhouette Score:** Peaks at *k = 2*, but higher k uncovers richer themes
 
-    -   Using sentence embeddings + K-Means
+    - Using sentence embeddings + K-Means
 
     ### K=2 (Best silhouette)
 
