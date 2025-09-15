@@ -120,19 +120,19 @@ embeddings, clustering, and visualisation.
 ## Key Insights
 
 -   Customers are mostly positive, with strong praise for drivers,
-    service quality, and convenience.\
--   Major pain points: app usability, cancellations, and pricing.\
--   Neutral reviews are underrepresented and require better handling.\
+    service quality, and convenience.
+-   Major pain points: app usability, cancellations, and pricing.
+-   Neutral reviews are underrepresented and require better handling.
 -   K=6 clustering reveals actionable business topics:
-    -   Improve app experience (Cluster 4)\
-    -   Address cancellations & pricing transparency (Cluster 1)\
+    -   Improve app experience (Cluster 4)
+    -   Address cancellations & pricing transparency (Cluster 1)
     -   Strengthen positive experiences with drivers & service quality
 
 ------------------------------------------------------------------------
 
 ## Next Steps
 
--   Fine-tune embeddings with domain-specific models (Uber/transport datasets).\
+-   Fine-tune embeddings with domain-specific models (Uber/transport datasets).
 -   Use advanced classifiers (BERT, RoBERTa) to improve Neutral detection.      
 -   Deploy Power BI dashboard with:
     -   Sentiment trend over time\
