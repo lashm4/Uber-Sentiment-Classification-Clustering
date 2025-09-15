@@ -152,6 +152,6 @@ embeddings, clustering, and visualisation.
 ## 👩🏻‍💻Tech Stack
 
 -   Python (Pandas, Scikit-learn, Matplotlib, WordCloud,
-    Sentence-Transformers)\
--   Power BI for visualisation \
+    Sentence-Transformers)
+-   Power BI for visualisation 
 -   Dataset: \[[Uber Customer Reviews 2024 - Kaggle\]](https://www.kaggle.com/datasets/kanchana1990/uber-customer-reviews-dataset-2024)
