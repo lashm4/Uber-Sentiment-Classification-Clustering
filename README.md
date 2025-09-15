@@ -134,17 +134,14 @@ embeddings, clustering, and visualisation.
 
 -   Fine-tune embeddings with domain-specific models (Uber/transport datasets).
 -   Use advanced classifiers (BERT, RoBERTa) to improve Neutral detection.      
--   Deploy Power BI dashboard with:
-    -   Sentiment trend over time\
-    -   Cluster distribution\
-    -   Keyword tracking
+-   Deploy Power BI dashboard
 
 ------------------------------------------------------------------------
 
 ## Outputs
 
 -   WordClouds per cluster: saved in `/wordclouds/`\
--   Model evaluation metrics (classification & clustering)\
+-   Model evaluation metrics (classification & clustering)
 -   Ready to use data for Power BI dashboard
 
 ------------------------------------------------------------------------
