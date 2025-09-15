@@ -36,7 +36,7 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 
 #Step 1: Load Data
-file_path = "XXXXXXXXXX"  # TODO: replace with your file path
+file_path = "XXXXXXXXXX"
 df = pd.read_csv(file_path)
 print("Shape:", df.shape)
 print("Columns:", df.columns)
@@ -83,10 +83,10 @@ X = df['Clean_Review']
 y = df['Sentiment']
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=RANDOM_STATE, stratify=y
+    X, y, test_size=0.2, random_state=RANDOM_STATE, stratify=y #train 80%,test20%
 )
 
-#TF-IDF
+#TF-IDF so we can convert the text into vectors
 tfidf_vect = TfidfVectorizer(max_features=3000, ngram_range=(1,2))
 X_train_tfidf = tfidf_vect.fit_transform(X_train)
 X_test_tfidf = tfidf_vect.transform(X_test)
