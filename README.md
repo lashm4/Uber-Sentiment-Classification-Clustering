@@ -9,9 +9,9 @@ embeddings, clustering, and visualisation.
 
 -   **Dataset**: [Uber Customer Reviews (2024) from Kaggle\](https://www.kaggle.com/datasets/kanchana1990/uber-customer-reviews-dataset-2024)
 -   **Goal**: Identify customer sentiments and recurring themes (pain
-    points & strengths).\
+    points & strengths).
 -   **Techniques**: Logistic Regression, TF-IDF, Sentence Embeddings,
-    K-Means, DBSCAN\
+    K-Means, DBSCAN
 -   **Visualization**: WordClouds & Power BI dashboard
 
 ------------------------------------------------------------------------
